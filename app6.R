@@ -12,8 +12,8 @@ library(rnaturalearth)
 # ==============================================================================
 
 # File paths - Update these to your local paths for the final run
-path_stations <- "C:/MTU Risshi/MSc Semester 2/Data Analytics and vis/assignment 1/DATASET.csv"
-path_satellite <- "C:/MTU Risshi/MSc Semester 2/Data Analytics and vis/assignment 1/indiasubcont_satpm_allyears.csv"
+path_stations <- "add ur  path here  "
+path_satellite <- "add ur path here "
 
 # Load Satellite Data (1998 TO 2022)
 sat_data <- read_csv(path_satellite)
@@ -225,4 +225,5 @@ server <- function(input, output) {
 }
 
 # --- RUN APP ---
+
 shinyApp(ui, server)
