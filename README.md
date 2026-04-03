@@ -1,13 +1,3 @@
----
-title: AQI Rishikesh
-emoji: 📚
-colorFrom: blue
-colorTo: yellow
-sdk: docker
-app_port: 7860
-pinned: false
-license: mit
----
 
 # AQI Rishikesh: Indian vs. Maharashtra Air Quality Dashboard
 
